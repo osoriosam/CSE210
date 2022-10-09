@@ -24,7 +24,7 @@ class Artifact(Actor):
         Returns:
             Points: 1 if touch a gem, -1 if touch a rock
         """
-        if (self.get_text == "*"):
+        if (self._text == "*"):
             self._points = 1
         else:
             self._points = -1
