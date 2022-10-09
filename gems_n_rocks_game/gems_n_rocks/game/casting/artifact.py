@@ -10,7 +10,7 @@ class Artifact(Actor):
     and message for display.
     
     Attributes:
-        message (String): The message to display when the robot touch each artifact.    
+        points (int): The points to add when robot touch an artifact.    
     """
 
     def __init__(self):
@@ -19,7 +19,17 @@ class Artifact(Actor):
         self._points = 0
 
     def get_points(self):
-        
+        """Get points when robot touch an artifact.
+
+        Returns:
+            Points: 1 if touch a gem, -1 if touch a rock
+        """
+        if (self.get_text == "*"):
+            self._points = 1
+        else:
+            self._points = -1
+        return self._points
+
 
     
 
