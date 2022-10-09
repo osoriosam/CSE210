@@ -1,5 +1,5 @@
-# Robot Finds Kitten
-Simon Carless once described robotfindskitten as "less a game and more a way of life ... It's fun to wander around until you find a kitten, at which point you feel happy and can start again". I don't think I could have said it better myself!
+# Gems & Rocks game
+This is a very simple game, you need to catch every gem (*) falling from the sky, you'll earn 1 point, but if you catch a rock (O) you'll lose 1 point.  So, get the most points possible and get a nice moment catching gems from the sky...
 
 ## Getting Started
 ---
@@ -19,8 +19,7 @@ project folder. Select the main module inside the hunter folder and click the "r
 The project files and folders are organized as follows:
 ```
 root                    (project root folder)
-+-- rfk                 (source code for game)
-  +-- data              (data files for game)
++-- gems_n_rocks                 (source code for game)
   +-- game              (specific game classes)
   +-- __main__.py       (entry point for program)
 +-- README.md           (general info)
@@ -33,4 +32,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* # TODO: Add your name and email here
+Samuel M. Osorio (osoriosam@gmail.com)
